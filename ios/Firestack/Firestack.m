@@ -8,7 +8,6 @@
 #import "FirestackErrors.h"
 #import "FirestackEvents.h"
 // #import "FirestackAnalytics.h"
-// #import "FirestackCloudMessaging.h"
 
 static Firestack *_sharedInstance = nil;
 static dispatch_once_t onceToken;
