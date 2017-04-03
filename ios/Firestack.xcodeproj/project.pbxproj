@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D90882D61D89C18C00FB6742 /* FirestackCloudMessaging.m in Sources */ = {isa = PBXBuildFile; fileRef = D90882D51D89C18C00FB6742 /* FirestackCloudMessaging.m */; };
 		D950369E1D19C77400F7094D /* Firestack.m in Sources */ = {isa = PBXBuildFile; fileRef = D950369D1D19C77400F7094D /* Firestack.m */; };
 		D962903F1D6D15B00099A3EC /* FirestackErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = D962903E1D6D15B00099A3EC /* FirestackErrors.m */; };
 		D96290451D6D16100099A3EC /* FirestackAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = D96290441D6D16100099A3EC /* FirestackAnalytics.m */; };
@@ -30,8 +29,6 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libFirestack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFirestack.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D90882D41D89C18C00FB6742 /* FirestackCloudMessaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirestackCloudMessaging.h; path = Firestack/FirestackCloudMessaging.h; sourceTree = "<group>"; };
-		D90882D51D89C18C00FB6742 /* FirestackCloudMessaging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirestackCloudMessaging.m; path = Firestack/FirestackCloudMessaging.m; sourceTree = "<group>"; };
 		D950369C1D19C77400F7094D /* Firestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Firestack.h; path = Firestack/Firestack.h; sourceTree = "<group>"; };
 		D950369D1D19C77400F7094D /* Firestack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Firestack.m; path = Firestack/Firestack.m; sourceTree = "<group>"; };
 		D96290391D6D152A0099A3EC /* FirestackEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirestackEvents.h; path = Firestack/FirestackEvents.h; sourceTree = "<group>"; };
@@ -79,8 +76,6 @@
 		D96290351D6D145F0099A3EC /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				D90882D41D89C18C00FB6742 /* FirestackCloudMessaging.h */,
-				D90882D51D89C18C00FB6742 /* FirestackCloudMessaging.m */,
 				D9D62E7E1D6D8717003D826D /* FirestackAuth.h */,
 				D9D62E7F1D6D8717003D826D /* FirestackAuth.m */,
 				D96290391D6D152A0099A3EC /* FirestackEvents.h */,
@@ -157,7 +152,6 @@
 				D9D62E7C1D6D86FD003D826D /* FirestackStorage.m in Sources */,
 				D962903F1D6D15B00099A3EC /* FirestackErrors.m in Sources */,
 				D950369E1D19C77400F7094D /* Firestack.m in Sources */,
-				D90882D61D89C18C00FB6742 /* FirestackCloudMessaging.m in Sources */,
 				D96290851D6D28B80099A3EC /* FirestackDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
